@@ -3,10 +3,7 @@
         go(){
             document.documentElement.classList.add('js-enabled');
             this.fizzbuzz = document.getElementById('fizzbuzz');
-
             this.boucle();
-
-
         },
         boucle() {
             for (var i = 1; i <= 100; i++) {
